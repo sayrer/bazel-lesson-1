@@ -243,4 +243,6 @@ If you go back and edit `cpp/basic_library.cpp`, you'll find that this project g
 
 This dependency graph is starting to get large, but it's really not much compared to a production Bazel project.
 
+# Wrapping up
+
 Lesson 1 should have explained the basic concepts behind Bazel, and shown why it is such a powerful system for building production software in multiple projects across a single company or organization. The next lesson will build on this basic skeleton to produce mobile clients, servers, and wire traffic they can use to communicate.
