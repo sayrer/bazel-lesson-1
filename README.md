@@ -2,7 +2,7 @@
 
 This is a conversational introduction to Bazel. The first lesson will introduce basic Bazel concepts, and teach you how to build simple command line apps in Java and C++. It's recommended that you clone this repo and follow along in the terminal.
 
-This text assumes you're running macOS 10.14, but it shouldn't be difficult to adapt the instructions for other operating systems. To get started, install Bazel(https://docs.bazel.build/versions/master/install.html) and Homebrew(https://brew.sh/), and make sure you have XCode installed.
+This text assumes you're running macOS 10.14, but it shouldn't be difficult to adapt the instructions for other operating systems. To get started, install [Bazel](https://docs.bazel.build/versions/master/install.html) and [Homebrew](https://brew.sh/), and make sure you have XCode installed.
 
 ```$ bazel version
 Build label: 0.24.1
@@ -125,6 +125,8 @@ This shows that our app depends on the files in our library, and the local C/C++
 And, we can visualize it using graphviz:
 
 ```$ bazel query  --nohost_deps --noimplicit_deps "deps(//cpp:basic-app)" --output=graph | dot -Tpng | open -f -a /Applications/Preview.app```
+
+![alt text](./basic_cpp.png "Bazel graph output")
 
 
 If you take a look at Bazel's output, you can see what's been built:
