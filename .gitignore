@@ -1,5 +1,5 @@
-/bazel-bazel-lesson-1/*
-/bazel-genfiles/*
-/bazel-testlogs/*
-/bazel-bin/*
-/bazel-out/*
+/bazel-bazel-lesson-1/**
+/bazel-genfiles/**
+/bazel-testlogs/**
+/bazel-bin/**
+/bazel-out/**
