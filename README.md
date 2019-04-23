@@ -1,6 +1,6 @@
 # Bazel Lesson 1
 
-This is a conversational introduction to Bazel. The first lesson will introduce basic Bazel concepts, and teach you how to build simple command line apps in Java and C++. It's recommended that you follow along in the terminal.
+This is a conversational introduction to Bazel. The first lesson will introduce basic Bazel concepts, and teach you how to build simple command line apps in Java and C++. It's recommended that you clone this repo and follow along in the terminal.
 
 This text assumes you're running macOS 10.14, but it shouldn't be difficult to adapt the instructions for other operating systems. To get started, install Bazel(https://docs.bazel.build/versions/master/install.html) and Homebrew(https://brew.sh/), and make sure you have XCode installed.
 
