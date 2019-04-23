@@ -76,7 +76,7 @@ INFO: Build completed successfully, 7 total actions
 
 I'm a C++ string!
 
-$```
+```
 
 What this does is create the binary into a working directory and run it. This ends up being really handy for packaging, because you can specify data files as dependencies and have them copied to the right place, without worrying about doing this yourself. Let's take a look at the dependencies of this tiny app with Bazel's query language.
 
