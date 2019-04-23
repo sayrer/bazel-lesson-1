@@ -158,7 +158,8 @@ INFO: Build completed successfully, 18 total actions
 //cpp:basic-test                                                         PASSED in 0.1s
 
 Executed 1 out of 1 test: 1 test passes.
-INFO: Build completed successfully, 18 total actions```
+INFO: Build completed successfully, 18 total actions
+```
 
 If you run it again, you'll note that it says "(cached)", meaning Bazel determined that the test needn't be rerun, as none of its dependencies had changed. If you edit one of the basic_library files, or the test file itself, Bazel will rerun the test. If you change basic_app.cpp (the file with the main function), it won't, because the test doesn't depend on the binary, only the library. Take another look at `cpp/BUILD` with this dependency graph in mind.
 
@@ -206,7 +207,8 @@ INFO: Build completed successfully, 1 total action
 //java/basic:test                                               (cached) PASSED in 0.5s
 
 Executed 0 out of 1 test: 1 test passes.
-INFO: Build completed successfully, 1 total action```
+INFO: Build completed successfully, 1 total action
+```
 
 # Combining C++ and Java
 
