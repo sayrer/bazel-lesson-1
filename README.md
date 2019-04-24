@@ -239,7 +239,7 @@ Here, you can see our Java binary running the Java and C++ libraries we just bui
 
 `bazel query  --nohost_deps --noimplicit_deps "deps(//java/jni:command)" --output=graph | dot -Tpng | open -f -a /Applications/Preview.app`
 
-If you go back and edit `cpp/basic_library.cpp`, you'll find that this project gets rebuilt as well.
+If you go back and edit `cpp/basic_library.cpp`, you'll find that this target gets rebuilt as well.
 
 ![alt text](./jni.png "Bazel graph output")
 
