@@ -214,7 +214,7 @@ INFO: Build completed successfully, 1 total action
 
 # Combining C++ and Java
 
-To wrap up this lession, we'll combine our C++ and Java libraries in one executable using JNI.
+To wrap up this lesson, we'll combine our C++ and Java libraries in one executable using JNI.
 
 ```
 $ bazel run -s //java/jni:command
