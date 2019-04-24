@@ -31,7 +31,7 @@ dot - graphviz version 2.40.1 (20161225.0304)
 
 At the root of this repository, you'll see a file in all-caps called WORKSPACE. We won't get into its contents, but its purpose is to describe dependencies, both for our applications and extensions to Bazel itself.
 
-The first thing we'll build is a trivial C++ command line application, with an associated library and a test. Bazel distributes what it calls "targets" throughout the project's directories. You specifcy targets using a path syntax, where "//" identifies the top-level directory that contains WORKSPACE. If you look in `cpp/BUILD`, you'll find three targets.
+The first thing we'll build is a trivial C++ command line application, with an associated library and a test. Bazel distributes what it calls "targets" throughout the project's directories. You specify targets using a path syntax, where "//" identifies the top-level directory that contains WORKSPACE. If you look in `cpp/BUILD`, you'll find three targets.
 
 ```
 $ more cpp/BUILD 
