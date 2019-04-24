@@ -198,6 +198,8 @@ INFO: Build completed successfully, 3 total actions
 
 Executed 1 out of 1 test: 1 test passes.
 INFO: Build completed successfully, 3 total actions
+
+
 sayrer:crossplatform sayrer$ bazel test //java/...
 INFO: Analysed 3 targets (1 packages loaded, 6 targets configured).
 INFO: Found 2 targets and 1 test target...
