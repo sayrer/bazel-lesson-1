@@ -248,3 +248,5 @@ This dependency graph is starting to get large, but it's really not much compare
 # Wrapping up
 
 Lesson 1 should have explained the basic concepts behind Bazel, and shown why it is such a powerful system for building production software in multiple projects across a single company or organization. The next lesson will build on this basic skeleton to produce mobile clients, servers, and wire traffic they can use to communicate.
+
+Checkout [Bazel Lesson 2](https://github.com/sayrer/bazel-lesson-2) for more language integrations and some other advanced Bazel extensions.
